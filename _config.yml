@@ -1,0 +1,10 @@
+title: 雨宙
+email: z@zt.vc
+description: 描述
+baseurl: ''
+url: ''
+twitter_username: rains31
+github_username: rains31
+theme: minima
+plugins:
+  - jekyll-feed
