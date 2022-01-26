@@ -1,6 +1,5 @@
-rains.im
-=================
+# rains.im
 
 my blog
 
-https://rains.im
+<https://rains.im>
