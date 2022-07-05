@@ -21,26 +21,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"rains.im","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.12.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"width":300},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="键盘行为艺术家，终身学习者，伪全栈。Keyboard performance artist, lifelong learner, pseudo full stack developer, user of php, python, js, linux, shell, etc.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="小雨宙">
-<meta property="og:url" content="https://rains.im/index.html">
+    <meta name="description" content="前几天手贱把ax6s折腾死了。 死的方式是：我看到22.03-rc4已经发布，心想着rc4离正式发布已经不远了，之前刷的snapshot固件内核版本老是变，经常要手工升级，有点烦，不如试试rc4，我上传rc4固件后，它警告我上传的包无法验证，是否要强刷，我头铁的选了是，等ax6s刷完重启完就一直亮黄灯，lan下的设备直接获取到了上级路由器dhcp分配的动态ip，Sorry，说它是砖可能委屈它了，它">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ax6s救砖记">
+<meta property="og:url" content="https://rains.im/2022/07/05/ax6s%E6%95%91%E7%A0%96%E8%AE%B0/index.html">
 <meta property="og:site_name" content="小雨宙">
-<meta property="og:description" content="键盘行为艺术家，终身学习者，伪全栈。Keyboard performance artist, lifelong learner, pseudo full stack developer, user of php, python, js, linux, shell, etc.">
+<meta property="og:description" content="前几天手贱把ax6s折腾死了。 死的方式是：我看到22.03-rc4已经发布，心想着rc4离正式发布已经不远了，之前刷的snapshot固件内核版本老是变，经常要手工升级，有点烦，不如试试rc4，我上传rc4固件后，它警告我上传的包无法验证，是否要强刷，我头铁的选了是，等ax6s刷完重启完就一直亮黄灯，lan下的设备直接获取到了上级路由器dhcp分配的动态ip，Sorry，说它是砖可能委屈它了，它">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-07-05T00:53:25.000Z">
+<meta property="article:modified_time" content="2022-07-05T01:34:40.682Z">
 <meta property="article:author" content="Archer">
 <meta property="article:tag" content="Linux, Shell, PHP, Python, JavaScript">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://rains.im/">
+<link rel="canonical" href="https://rains.im/2022/07/05/ax6s%E6%95%91%E7%A0%96%E8%AE%B0/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://rains.im/2022/07/05/ax6s%E6%95%91%E7%A0%96%E8%AE%B0/","path":"2022/07/05/ax6s救砖记/","title":"ax6s救砖记"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>小雨宙</title>
+<title>ax6s救砖记 | 小雨宙</title>
   
 
 
@@ -72,7 +74,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">小雨宙</h1>
+      <p class="site-title">小雨宙</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">年过不惑，闷骚技术宅，虚无主义者。<br/>喜欢聊天，喜欢跑步，喜欢网络，喜欢Linux.</p>
@@ -184,16 +186,17 @@
 </noscript>
 
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://rains.im/2022/07/05/ax6s%E6%95%91%E7%A0%96%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -207,13 +210,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 小雨宙">
+      <meta itemprop="name" content="ax6s救砖记 | 小雨宙">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/07/05/ax6s%E6%95%91%E7%A0%96%E8%AE%B0/" class="post-title-link" itemprop="url">ax6s救砖记</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          ax6s救砖记
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -237,14 +240,13 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>前几天手贱把ax6s折腾死了。</p>
+        <p>前几天手贱把ax6s折腾死了。</p>
 <p>死的方式是：我看到22.03-rc4已经发布，心想着rc4离正式发布已经不远了，之前刷的snapshot固件内核版本老是变，经常要手工升级，有点烦，不如试试rc4，我上传rc4固件后，它警告我上传的包无法验证，是否要强刷，我头铁的选了是，等ax6s刷完重启完就一直亮黄灯，lan下的设备直接获取到了上级路由器dhcp分配的动态ip，Sorry，说它是砖可能委屈它了，它分明是变成了一个傻瓜交换机，还是千兆的，比砖还是强一些的。</p>
 <p>网上搜了一下别人的救砖经验，基本都是tftp+dhcp在路由器reset状态下刷rom。</p>
 <p>别人用的windows下的tftp，我手头只有个archlinux,自带的dnsmasq，dhcp和tftp全有了。</p>
 <p>把准备好的ax6s rom放进tftp root下，第一次没有成功，为了便于查看问题，把log全开。<br>发现我的ax6s没有像网上说的那样去请求C0A81F02.img，而是请求了pxelinux.0，然而这个文件不存在，看来是以前设置的dhcp-boot选项影响了它，直接把rom改名为pxelinux.0，重来一次，先把wan口连pc网口，然后用卡针戳着ax6s的reset孔开机，看黄灯闪烁后松手，看着dnsmasq的日志没有再报错，几分钟后，小蓝灯重新亮起。搞定。</p>
 <p>ps：网上ax6s刷机教程大多需要刷一个中间过渡版openwrt。但是经过实践，从1.2.7测试版完全可以直接telnet进去，wget一个openwrt 22.03-rc4的固件(那个wget貌似不支持https，如果找不到能http下载的资源，可以先下载到本地然后python -m http.server起一个http服务)，mtd写入就行，那个过渡版固件完全没必要刷（小心别人在固件里留后门）。</p>
 
-      
     </div>
 
     
@@ -252,322 +254,22 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/07/05/hexo-admin%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/" rel="prev" title="hexo-admin报错处理">
+                  <i class="fa fa-chevron-left"></i> hexo-admin报错处理
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://rains.im/2022/07/05/hexo-admin%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Archer">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小雨宙">
-      <meta itemprop="description" content="键盘行为艺术家，终身学习者，伪全栈。Keyboard performance artist, lifelong learner, pseudo full stack developer, user of php, python, js, linux, shell, etc.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 小雨宙">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/07/05/hexo-admin%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/" class="post-title-link" itemprop="url">hexo-admin报错处理</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-07-05 08:27:06 / 修改时间：08:31:39" itemprop="dateCreated datePublished" datetime="2022-07-05T08:27:06+08:00">2022-07-05</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>发文过程报错，Error: Function yaml.safeLoad is removed in js-yaml 4. Use yaml.load instead, which is now safe by default.</p>
-<p>原因是js-yaml 4中弃用了safeLoad方法，看上游暂时还没修复，本地先临时处理一下。</p>
-<pre class="line-numbers language-none"><code class="language-none">sed -i &#39;s#yml\.safeLoad#yml\.load#g&#39; .&#x2F;node_modules&#x2F;hexo-admin&#x2F;api.js<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://rains.im/2022/06/28/Openssh8-8%E6%8A%9B%E5%BC%83%E4%BA%86ssh-rsa/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Archer">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小雨宙">
-      <meta itemprop="description" content="键盘行为艺术家，终身学习者，伪全栈。Keyboard performance artist, lifelong learner, pseudo full stack developer, user of php, python, js, linux, shell, etc.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 小雨宙">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/06/28/Openssh8-8%E6%8A%9B%E5%BC%83%E4%BA%86ssh-rsa/" class="post-title-link" itemprop="url">Openssh8.8抛弃了ssh-rsa</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-06-28 11:34:25 / 修改时间：12:15:01" itemprop="dateCreated datePublished" datetime="2022-06-28T11:34:25+08:00">2022-06-28</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>官方给出的理由是，不够安全，太容易冲撞了。</p>
-<p>当然，最好的办法是使用改用sha2-256或ed25519等更强的加密方式。</p>
-<p>不过，对于那些比较老旧的服务器或嵌入式系统等不那么方便升级ssh服务端的环境，</p>
-<p>还是继续使用ssh-rsa比较现实。</p>
-<p>用你喜欢的编辑器打开 ~/.ssh/config<br>在里面添加下面两行：</p>
-<pre class="line-numbers language-none"><code class="language-none">HostKeyAlgorithms&#x3D;ssh-rsa,ssh-rsa-cert-v01@openssh.com
-PubkeyAcceptedAlgorithms&#x3D;+ssh-rsa,ssh-rsa-cert-v01@openssh.com<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>即可。</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://rains.im/2022/01/26/%E6%8A%95%E8%B5%84%E6%97%A0%E6%B3%95%E9%A2%84%E6%B5%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Archer">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小雨宙">
-      <meta itemprop="description" content="键盘行为艺术家，终身学习者，伪全栈。Keyboard performance artist, lifelong learner, pseudo full stack developer, user of php, python, js, linux, shell, etc.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 小雨宙">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/01/26/%E6%8A%95%E8%B5%84%E6%97%A0%E6%B3%95%E9%A2%84%E6%B5%8B/" class="post-title-link" itemprop="url">投资无法预测</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-01-26 02:25:00" itemprop="dateCreated datePublished" datetime="2022-01-26T02:25:00+08:00">2022-01-26</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-06-28 11:08:03" itemprop="dateModified" datetime="2022-06-28T11:08:03+08:00">2022-06-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%94%9F%E6%B4%BB/" itemprop="url" rel="index"><span itemprop="name">生活</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>北京又新增了几个确诊病例。想起两年前的春节，疫情爆发，股市暴跌，我在最低位清了仓。我清仓后，股市就开始疯狂暴涨。跑在了最底部。</p>
-<p>最近股市又狂跌，这次我不想跑了。虽然我没法判断时机，但是暴跌显然是入场时机，我又悄悄的加了一些定投。它敢一直跌，我就敢一直投下去。</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://rains.im/2022/01/26/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Archer">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小雨宙">
-      <meta itemprop="description" content="键盘行为艺术家，终身学习者，伪全栈。Keyboard performance artist, lifelong learner, pseudo full stack developer, user of php, python, js, linux, shell, etc.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 小雨宙">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/01/26/hello-world/" class="post-title-link" itemprop="url">postcss-px2rem+webpack5报错处理</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-01-26 00:00:00" itemprop="dateCreated datePublished" datetime="2022-01-26T00:00:00+08:00">2022-01-26</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-07-05 08:35:10" itemprop="dateModified" datetime="2022-07-05T08:35:10+08:00">2022-07-05</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>看网上很多人遇到过同样问题，用postcss-pxtorem替代postcss-px2rem，就没问题了。</p>
-<p>6年没有维护的包，也没必要跟它死磕了。-_-</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
@@ -618,7 +320,7 @@ PubkeyAcceptedAlgorithms&#x3D;+ssh-rsa,ssh-rsa-cert-v01@openssh.com<span aria-hi
 
 
   <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://rains.im/"}</script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://rains.im/2022/07/05/ax6s%E6%95%91%E7%A0%96%E8%AE%B0/"}</script>
   <script src="/js/third-party/quicklink.js"></script>
 <script type="text/javascript">
 console.table({
