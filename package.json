@@ -15,7 +15,7 @@
     "stylus": "^0.54.8"
   },
   "dependencies": {
-    "bcrypt": "^5.0.1",
+    "bcrypt": "^5.1.0",
     "hexo": "^6.2.0",
     "hexo-admin": "^2.3.0",
     "hexo-deployer-git": "^3.0.0",
